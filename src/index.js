@@ -4,6 +4,7 @@ import App from "./App";
 import "./index.css";
 import Greeting from "./person";
 import ComponentReact from "./componentReact";
+import Car from "./Car";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
@@ -11,6 +12,7 @@ root.render(
     <App />
     <Greeting name="syahrul" />
     <ComponentReact />
+    <Car color="blue" />
   </React.StrictMode>,
   document.getElementById("root")
 );
