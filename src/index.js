@@ -5,6 +5,7 @@ import "./index.css";
 import Greeting from "./person";
 import ComponentReact from "./componentReact";
 import Car from "./Car";
+import ChangeColor from "./CangeColor";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
@@ -13,6 +14,7 @@ root.render(
     <Greeting name="syahrul" />
     <ComponentReact />
     <Car color="blue" />
+    <ChangeColor />
   </React.StrictMode>,
   document.getElementById("root")
 );
